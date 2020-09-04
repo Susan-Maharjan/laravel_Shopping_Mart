@@ -1,0 +1,79 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li li {
+    display: inline;
+    position: relative;
+}
+
+ul ul {
+    background-color: lightblue;
+    position: absolute;
+    display: none;
+}
+
+ul ul ul {
+    left: 100%;
+    top: 0;
+    display: inline-block;
+}
+
+li:hover ul {
+    display: block;
+}
+
+li li:hover {
+    background: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+.brands {
+    background: #FBFBFB;
+    /* background: red; */
+    padding: 40px 0;
+}
+
+.brand-item {
+    width: 70px;
+    margin: 0 auto;
+}
+
+.brands,
+.brand-slider {
+    margin-top: 28px;
+}
+
+
+/* 
+.brands,
+.brand-logo {
+    width: 70px;
+    margin: 0 auto;
+} */
+
+
+/* 
+.slick-prev:before {
+    content: url("images/beforearrow.png");
+}
+
+.slick-next:before {
+    content: url("images/nextarrow.png");
+}
+
+.slick-prev .slick-next {
+    top: 12%;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+} */

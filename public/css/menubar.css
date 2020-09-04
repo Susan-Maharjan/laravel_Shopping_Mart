@@ -1,0 +1,13 @@
+.menubar {
+    background-color: lightblue;
+    margin: 0px;
+    padding-left: 100px;
+    font-size: 14px;
+}
+
+.img-fluid {
+    margin: 0px;
+    padding-left: 10px;
+    border-image: none;
+    width: 1350px;
+}
